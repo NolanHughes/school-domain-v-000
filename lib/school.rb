@@ -27,7 +27,7 @@ class School
   end
 
   def sort
-    roster_sorted = {}
+    roster_sorted = []
     roster.collect do |key, value|
       roster_sorted << value.sort
     end
