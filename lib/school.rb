@@ -27,7 +27,6 @@ class School
   end
 
   def sort
-    # roster_sorted = []
     roster.collect do |key, value|
       value.sort
     end
