@@ -7,6 +7,6 @@ class School
     @roster = roster
   end
 
-  
+
 
 end
