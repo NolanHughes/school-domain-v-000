@@ -32,4 +32,6 @@ class School
     end
   end
 
+roster = {9 => ["Nolan", "Jessie"], 10 => ["Sandy", "Jonny"]}
+
 end
