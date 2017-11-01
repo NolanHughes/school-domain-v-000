@@ -21,7 +21,7 @@ class School
         key
       end
     end
-      
+
   end
 
 end
