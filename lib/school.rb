@@ -18,7 +18,7 @@ class School
   def grade(grade)
     # students_in_grade = []
 
-    roster.each do |key, value|
+    roster.collect do |key, value|
       if key == grade
         value
       end
