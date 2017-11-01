@@ -28,10 +28,12 @@ class School
 
   def sort
     roster.collect do |key, value|
-      value.sort{ |a,b| a[1]<=>b[1] }
+      value.each
+
+
     end
   end
-
+# roster[key]value.sort{ |a,b| a[1]<=>b[1] }
 # roster = {9 => ["Nolan", "Jessie"], 10 => ["Sandy", "Jonny"]}
 
 end
