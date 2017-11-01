@@ -28,7 +28,8 @@ class School
 
   def sort
     roster.collect do |key, value|
-      value.sort.to_h
+      value.sort
+      value.to_h
 
     end
   end
