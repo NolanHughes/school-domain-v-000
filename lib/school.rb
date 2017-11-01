@@ -29,7 +29,7 @@ class School
   def sort
     roster_sorted = {}
     roster.collect do |key, value|
-      value.sort
+      roster_sorted << value.sort
     end
   end
 # roster[key]= value.sort{ |a,b| a[1]<=>b[1] }
