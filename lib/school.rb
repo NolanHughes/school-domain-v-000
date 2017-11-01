@@ -26,4 +26,7 @@ class School
     students_in_grade
   end
 
+  def sort
+  end
+
 end
