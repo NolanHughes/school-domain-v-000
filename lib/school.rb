@@ -17,9 +17,9 @@ class School
 
   def grade(grade)
     roster.each do |key, value|
-      if key == grade
-        key
-      end
+      # if key == grade
+      #   key
+      # end
       key
     end
 
