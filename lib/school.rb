@@ -20,7 +20,7 @@ class School
 
     roster.each do |key, value|
       if key == grade
-        students_in_grade << value
+        value
       end
     end
     students_in_grade
