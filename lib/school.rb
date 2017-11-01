@@ -16,14 +16,14 @@ class School
   end
 
   def grade(grade)
-    students_in_grade = []
+    # students_in_grade = []
 
     roster.each do |key, value|
       if key == grade
         value
       end
     end
-    students_in_grade
+    # students_in_grade
   end
 
 end
