@@ -6,7 +6,7 @@ class School
     @roster = roster
   end
 
-  def add_student(name, grade)    
+  def add_student(name, grade)
     if grade.length = nil
       roster[grade] = []
     else
