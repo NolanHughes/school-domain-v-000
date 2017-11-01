@@ -1,6 +1,6 @@
 class School
 
-  ROSTER = {}
+  # ROSTER = {}
 
   attr_reader :roster
 
