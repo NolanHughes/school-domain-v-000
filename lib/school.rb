@@ -29,8 +29,6 @@ class School
   def sort
     roster.collect do |key, value|
       value.sort
-        
-      end
     end
   end
 # roster[key]= value.sort{ |a,b| a[1]<=>b[1] }
