@@ -28,8 +28,8 @@ class School
 
   def sort
     roster.collect do |key, value|
-      value.each do |name|        
-
+      value.sort
+        
       end
     end
   end
